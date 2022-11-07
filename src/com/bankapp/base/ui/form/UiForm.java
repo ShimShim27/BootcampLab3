@@ -1,21 +1,21 @@
-package com.bankapp.ui.form.base;
+package com.bankapp.base.ui.form;
 
 import java.util.HashMap;
 import java.util.Map;
 
+import com.bankapp.base.ui.renderer.TextRenderer;
+import com.bankapp.config.UiConfig;
 import com.bankapp.repository.DefaultStatementRepository;
 import com.bankapp.resources.StringResources;
 import com.bankapp.service.DepositService;
 import com.bankapp.service.StatementFetchService;
 import com.bankapp.service.WithdrawService;
-import com.bankapp.ui.config.UiConfig;
 import com.bankapp.ui.form.BalanceForm;
 import com.bankapp.ui.form.DepositForm;
 import com.bankapp.ui.form.StatementForm;
 import com.bankapp.ui.form.WithdrawForm;
 import com.bankapp.ui.input.ConsoleTextInputSource;
 import com.bankapp.ui.renderer.ConsoleTextRenderer;
-import com.bankapp.ui.renderer.base.TextRenderer;
 
 public abstract class UiForm {
 	private TextRenderer textRenderer;

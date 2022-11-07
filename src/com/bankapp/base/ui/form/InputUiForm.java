@@ -1,7 +1,7 @@
-package com.bankapp.ui.form.base;
+package com.bankapp.base.ui.form;
 
-import com.bankapp.ui.config.UiConfig;
-import com.bankapp.ui.input.base.TextInputSource;
+import com.bankapp.base.ui.input.TextInputSource;
+import com.bankapp.config.UiConfig;
 
 public abstract class InputUiForm extends UiForm {
 	private TextInputSource textInputSource;

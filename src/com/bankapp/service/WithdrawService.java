@@ -1,7 +1,7 @@
 package com.bankapp.service;
 
-import com.bankapp.repository.base.StatementRepository;
-import com.bankapp.service.base.StatementModificationService;
+import com.bankapp.base.repository.StatementRepository;
+import com.bankapp.base.service.StatementModificationService;
 
 public class WithdrawService extends StatementModificationService {
 	private static double MAX_WTIHDRAW_AMOUNT = 10_000;

@@ -1,4 +1,4 @@
-package com.bankapp.ui.input.base;
+package com.bankapp.base.ui.input;
 
 public interface TextInputSource {
 	public String getText();

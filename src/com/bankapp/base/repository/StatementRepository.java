@@ -1,4 +1,4 @@
-package com.bankapp.repository.base;
+package com.bankapp.base.repository;
 
 import com.bankapp.entity.BankStatement;
 import com.bankapp.entity.BankTransaction;

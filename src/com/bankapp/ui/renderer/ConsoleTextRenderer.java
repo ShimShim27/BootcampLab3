@@ -1,6 +1,6 @@
 package com.bankapp.ui.renderer;
 
-import com.bankapp.ui.renderer.base.TextRenderer;
+import com.bankapp.base.ui.renderer.TextRenderer;
 
 public class ConsoleTextRenderer implements TextRenderer{
 

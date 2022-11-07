@@ -8,9 +8,9 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
+import com.bankapp.base.repository.StatementRepository;
 import com.bankapp.entity.BankStatement;
 import com.bankapp.entity.BankTransaction;
-import com.bankapp.repository.base.StatementRepository;
 
 public class DefaultStatementRepository implements StatementRepository {
 	private final String fileSourcePath;

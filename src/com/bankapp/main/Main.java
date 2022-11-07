@@ -1,6 +1,6 @@
 package com.bankapp.main;
 
-import com.bankapp.ui.config.UiConfig;
+import com.bankapp.config.UiConfig;
 import com.bankapp.ui.form.MainForm;
 import com.bankapp.ui.input.ConsoleTextInputSource;
 import com.bankapp.ui.renderer.ConsoleTextRenderer;

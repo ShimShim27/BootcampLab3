@@ -1,9 +1,9 @@
 package com.bankapp.ui.form;
 
+import com.bankapp.base.ui.form.UiForm;
+import com.bankapp.config.UiConfig;
 import com.bankapp.entity.BankStatement;
 import com.bankapp.service.StatementFetchService;
-import com.bankapp.ui.config.UiConfig;
-import com.bankapp.ui.form.base.UiForm;
 
 public class StatementForm extends UiForm {
 	public static String ID = "StatementForm";

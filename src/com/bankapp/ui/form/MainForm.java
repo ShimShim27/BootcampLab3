@@ -1,8 +1,8 @@
 package com.bankapp.ui.form;
 
+import com.bankapp.base.ui.form.InputUiForm;
+import com.bankapp.config.UiConfig;
 import com.bankapp.helper.MenuChoicesStringBuilder;
-import com.bankapp.ui.config.UiConfig;
-import com.bankapp.ui.form.base.InputUiForm;
 
 public class MainForm extends InputUiForm {
 	public static String ID = "MainForm";

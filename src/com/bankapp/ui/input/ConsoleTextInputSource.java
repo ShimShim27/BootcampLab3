@@ -2,7 +2,7 @@ package com.bankapp.ui.input;
 
 import java.util.Scanner;
 
-import com.bankapp.ui.input.base.TextInputSource;
+import com.bankapp.base.ui.input.TextInputSource;
 
 public class ConsoleTextInputSource implements TextInputSource {
 	private final Scanner sc;

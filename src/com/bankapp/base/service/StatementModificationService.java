@@ -1,7 +1,7 @@
-package com.bankapp.service.base;
+package com.bankapp.base.service;
 
+import com.bankapp.base.repository.StatementRepository;
 import com.bankapp.entity.BankTransaction;
-import com.bankapp.repository.base.StatementRepository;
 
 public abstract class StatementModificationService {
 	private final StatementRepository statementRepository;

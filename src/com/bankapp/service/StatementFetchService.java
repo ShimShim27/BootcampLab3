@@ -1,7 +1,7 @@
 package com.bankapp.service;
 
+import com.bankapp.base.repository.StatementRepository;
 import com.bankapp.entity.BankStatement;
-import com.bankapp.repository.base.StatementRepository;
 
 public class StatementFetchService {
 	private final StatementRepository statementRepository;

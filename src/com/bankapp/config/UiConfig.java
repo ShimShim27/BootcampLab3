@@ -1,7 +1,7 @@
-package com.bankapp.ui.config;
+package com.bankapp.config;
 
-import com.bankapp.ui.input.base.TextInputSource;
-import com.bankapp.ui.renderer.base.TextRenderer;
+import com.bankapp.base.ui.input.TextInputSource;
+import com.bankapp.base.ui.renderer.TextRenderer;
 
 public class UiConfig {
 	private TextRenderer textRenderer;
